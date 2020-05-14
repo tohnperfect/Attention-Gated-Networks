@@ -23,5 +23,11 @@ Pytorch implementation of attention gates used in U-Net and VGG-16 models. The f
 [Conference Poster](https://www.doc.ic.ac.uk/~oo2113/posters/MIDL2018_poster.pdf)
 
 ### Installation
-pip install --process-dependency-links -e .
+1 pip install .
+2 git clone https://github.com/ozan-oktay/torchsample
+3 cd torch sample
+4 pip install .
+5 pip install torch torchvision nibable scikit-image h5py dominate
+### Run
+python test_classification.py -c ./configs/config_sononet_8.json
 
